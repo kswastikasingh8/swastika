@@ -1,0 +1,66 @@
+<!DOCTYPE html
+<html lang=en>
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content width="device-width" initial-scale="1.0">
+    <title>Experiment 5</title>
+</head>
+
+<body>
+    <center>
+        <h1>Student Registration Form</h1>
+    </center>
+    <hr><br>
+    <form method="POST" action="/submit">
+
+        <label for="fname">Full Name: </label>
+        <input type="text" placeholder="Enter your full name" id="fname" name="fname" required><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter valid email address" id="email" name="email" required><br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" placeholder="Enter password" id="password" name="password" required><br><br>
+
+        <label for="gender">Gender: </label>
+        <label>
+    <input type="radio" name="gender" value="male" required> Male
+  </label>
+  <label>
+    <input type="radio" name="gender" value="female"> Female
+  </label>
+  <label>
+    <input type="radio" name="gender" value="other"> Other
+  </label><br><br>
+ 
+  <label for="course">Course: </label>
+  <select id="course" name="course">
+    <option value="choose">--Select Course--</option>
+    <option value="btech">B.Tech</option>
+    <option value="bsc">B.Sc</option>
+    <option value="ba">B.A</option>
+    <option value="bba">BBA</option>
+  </select><br><br>
+
+  <label for="contact">Contact No: </label>
+  <input type="tel" placeholder="Enter phone number" id="contact" name="contact" required><br><br>
+
+   <label for="address">Address: </label>
+        <textarea rows="5" cols="25" id="address" name="address"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <br><br>
+
+        <hr>
+       <center>
+            <footer>
+                <p>&copy; 2025 Student Registration Portal</p>
+            </footer>
+        </center>
+
+    </form>
+</body>
+
+
+</html>
