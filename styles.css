@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    color: violet;
+    font: 30px sans-serif;
+}
+
+p {
+    color: green;
+    font: 25px serif;
+}

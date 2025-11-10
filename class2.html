@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #one {
+            font-size: 25px;
+            color: rgb(114, 0, 72);
+            text-align: center;
+        }
+        #two {
+            font-size: 25px;
+            color: rgb(0, 113, 117);
+            font-style: italic;
+        }
+        .text {
+            font-size: 20px;
+            color: brown;
+            text-align: justify;
+        }
+        .txt {
+            font-size: 20px;
+            color: green;
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
-    <h1> External Link </h1>
+    <h1 style="font:30px; color:black;font-style: italic;"> External Link </h1>
     <a href="https://www.google.com" target="_blank"> Google </a>
 
-    <h1> Internal Link </h1>
+    <h1 style="font:30px; color:blue;font-weight: bold;"> Internal Link </h1>
     <a href="index.html" target="_blank"> Home </a>
 
-    <h1> Inline Link </h1>
+    <h1 style="font:30px; color:red"> Inline Link </h1>
     <a href="#1" target="_blank"> Conclusion </a>
 
     <h2> Conclusion </h2>
-    <p id="1"> Global Warming </p>
-    <p> Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere. The term is frequently used interchangeably with the term climate change, though the latter refers to both human- and naturally produced warming and cooling phenomena. It is most commonly measured as the average increase in Earth's global surface temperature. </p>
+    <p id="one"> Global Warming<br>
+     Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere. The term is frequently used interchangeably with the term climate change, though the latter refers to both human- and naturally produced warming and cooling phenomena. It is most commonly measured as the average increase in Earth's global surface temperature. </p>
 
-    
+    <h2>trying</h2>
+    <p id="two">I'm trying to see how id works while applying external css.</p>
+
+    <p class="text">If you think by having night owl behaviour consistently you are doing good to your health, you are wrong. A large scale study where over 70,000 people were examined for over 8 long years has revealed something very alarming.</p>
+<p class="txt">In a survey of nearly 75,000 adults, researchers compared the participants' preferred sleep timing, known as chronotype, with their actual sleep behavior. They determined that regardless of one's preferred bedtime, everyone benefits from turning in early.</p>
+<p class="text">The findings, published in the journal Chronobiology International, showed that people who stayed up late and woke up late had a 10% higher risk of early death compared to those who went to bed earlier and woke up earlier. The study controlled for various factors, including age, sex, race, socioeconomic status, physical activity, diet quality, body mass index (BMI), and pre-existing health conditions.</p>
+<p class="txt">The researchers categorized participants into five chronotypes: "definite morning," "moderate morning," "intermediate," "moderate evening," and "definite evening." They found that those in the "definite evening" category had the highest risk of early death, while those in the "definite morning" category had the lowest risk.</p>
 </body>
 </html>
